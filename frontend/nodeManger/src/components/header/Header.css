@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  position: relative;
+  padding: 1rem 3rem;
+}
+
+.navbarOptions {
+  list-style: none;
+}
+.options {
+  text-decoration: none;
+  color: #83a2ff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.options h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 5% 0 5%;
+  width: 19vw;
+}
+.search {
+  background: #f4f4f4;
+  color: rgb(209, 209, 209);
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 25vw;
+  margin: 0 5% 0 5%;
+}
+
+.logo {
+  width: 100px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 25vw;
+}
+.userName {
+  margin: 0% 2%;
+  color: #ffd28f;
+  /* #B4BDFF */
+}
+
+.menu {
+  margin: 0% 10%;
+}

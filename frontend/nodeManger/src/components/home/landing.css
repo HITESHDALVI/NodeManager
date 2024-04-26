@@ -1,0 +1,54 @@
+.landing-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  height: 80vh;
+}
+.note-desc-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 38vw;
+}
+
+.landing-bg {
+  align-self: center;
+  height: 60vh;
+}
+.landing-wrapper h1 {
+  color: #83a2ff;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+}
+
+.landing-wrapper h3 {
+  color: #ffd28f;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.landing-wrapper p {
+  color: #5a5a5a;
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 85%;
+  margin-top: 0.95rem;
+}
+
+.get-started {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-end;
+  margin: 2.5rem 0;
+  border: 1px solid rgb(216, 19, 19);
+  color: rgb(216, 19, 19);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.started-icon {
+  margin-left: 0.5rem;
+  transition: width 0.4s ease-in-out;
+}
